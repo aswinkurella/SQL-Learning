@@ -1,0 +1,24 @@
+SQL:
+Introduction to SQL:
+Structured Qeury language.
+Its all about what data we want 
+ex:
+if the stranger doesnt knowa nything they just reacts to our commands and bring the data.
+
+Lets look like a dat set:
+If we want to took some data from a table 
+The basic command is sleect * from table_name
+
+Example:
+Lets say we have two data sets :
+1) table conatins two columns :Nmae of pizza ,pizza size
+2)pizza box (example)
+in english: pick the pizza from the box
+in sql: select everything from the box
+select-->command, everything-->What/Quantity,from-->direction/logic,Thebox-->Destination
+
+create,insert,update,delete --->these are the tasks taht we can perform on SQL
+
+Alter-->to add columns to the table
+
+##will see more in next sessions

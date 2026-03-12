@@ -1,0 +1,96 @@
+Databases:
+Introduction to data bases:
+SQL Foundations and databases:
+ex:
+Imagine a piggy bank and it used to store currency of different types.
+
+***A Data abse is used to store information of different data types .
+
+We should group the data similar way of piggy bank.
+
+A data base consists of numbers,alphabets,symbols,images and if it contains arranged information called relational data base.
+
+When we store some data call it as data base.
+
+****Types of data bases:
+
+Relational Databases:
+
+Data is stored in rows and columns and they use structured query language.
+
+ex: Mysql,postregsqll
+
+No SQL Data abses:
+
+Means non relational data abses or rapidly growing data bases.
+ex: social media data etc..,
+It can handle large volume data.
+
+Graph Databases:
+if we want to store ata and quering in grapgh way.
+ex: amazon neptune,neo4j,Tigergrapgh
+
+Time series data base:
+Storing timing widley used for IOT Applications with stamped data.
+ex:time scaled db
+
+Spatrial data bases:
+Storing data regarding geographic 
+
+OO Data bases:
+object oreienedted used for very very complex data 
+
+In-Memory data bases:
+
+Store data primarly in system memory rather than disk.
+rex:redis
+
+New SQL Data abses:
+Modern data bases where ebnifits of traditional relational datbases with the sclability and performance of No SQL data abses.
+ex:Google spanner,NuoDB,cockroachDB
+
+
+****What is SQL and My SQL ?
+
+sql is difficult to talk to it. while using sql we can do but very difficult process.
+ex: going to bank and taking money where bank is sql
+
+-->RDBMS Used to talk to sql like how in banks we use debit cards ,upi etc.,
+like that Mysql is one of the RDBMS system .
+
+SQl is a langauage used for managing RDb's. But MySQL is a RDBMS System that uses sql as a lanaguage.
+
+SQL can have multiple RDbMS Systenms.
+
+****Data bases vs spread sheets:
+
+Both data bases and spread sheets helps to store large amount of data.
+
+Spreadsheet is sued top store numbers or any format easily but creates lot of problems
+
+But data base we can store only the column type values where it gives strctural integrity.It will trhow error if we do store some other values.
+There will be some pre-defined data types,no formating,no misplaced data
+
+-->while stopring data in spread sheet we can store all info at one place which is good for accesing but not good if data is huge.
+
+-->while storing in data bases really good data quality but more work to get data.
+
+When we structure the data we can store some space tahts why we go for data bases instead of spreadsheets.
+
+
+*****Relational Databases:
+Ex:
+Lets say we have a piza store contains of [pizza's information 
+where it have fields like product id,color,size ,calories from pizza table 
+I can write a query to get the data easily but in spreadsheets its very difficult.
+
+I have a person details storing in a data abse of age,scl,study everything if i bring all data for taht person have around 10 columns type of data for that person
+if i create columns then i can store each person information and if we wnat unique we cna keep as key as well.
+
+If we think the fields will change every time keep those in seperate table but keep all common fields in one table with keys for two tables.
+which is nothing but in example lets take id how ID works as unique one.
+
+It is also easy to retrive ibformation based on key if all tables uses key based methods.
+
+
+

@@ -1,0 +1,125 @@
+Data types:
+Our project:
+A pizza store
+.Design and create a data abse
+.Insert and update table information.
+Clean standaridise porcess informationanalayse and find insights
+
+Lets do first step:
+Design and create a data base:
+understand data typesunderstand schemas
+understand relationships
+Undesrtand keys
+
+Lets understand data types:
+
+Data types:
+Numeric data types:
+INT ---Integer 
+range from -2billion to +2 billions
+when ever we store an integer it occupies 4 bytes
+
+ BIG INT
+ ---to be used for lot of different cases as an eexample for user id creation
+ -->Capacity for big int from negative to postive even never done large numbers
+ -->it stores 8 bytes of data and double the size of int
+ ex:customerid,transactionid etc..,
+ 
+ TINY INT:
+ data type used to store whole numbers
+ ex:used to store status for orders 
+ -->-128 to +127 
+ -->small amount of capacity
+ -->1 byte of data it will consume every time
+ 
+ Decimal:
+ decimal values will store in deciaml data type
+ precesion before decimal is precession and after dot is scale
+ based on precesion it store bytes:
+ 1-9 digits--->4bytes
+ 10-18-->8 bytes
+ ex:9999999.99-->8 bytes
+ 
+Float:
+-->used like tiny int used for specific use cases
+ex:temperature
+-->capcaity is -3.4*10^8 to +3.4*10^8
+-->used when slice is 2 and precesion doesnt increase 35 or 6
+
+Double:
+-->used more than float and less than deciaml
+-->8 bytes capaicty
+ex:finanical transactions,scientific caluculations
+
+
+BIT and Boolean:
+
+BIT is fundamental storage capacity metric stores values in 0's and 1's capacity is 1 bit.
+
+Boolean is also fundamental way of storing data like true or false similar to bits
+-->capacity is 1 byte
+
+String Data types:
+CHAR:
+This is sued to store character values 
+it is fixed always uses length if we give char(4).
+It stores data based on define as example for above ones it stores 4 bytes of data
+ex:Book ISBN Codes,Libraray branch codes
+-->it works for both text and numbers
+VARCHAR:
+-->It is just a little bit different
+-->when ever there is no structured data we can use varchar until that limit .
+-->we can store until limit of 250 characters.
+-->size has flexibilty based on the data storage.
+-->L+1 is the store
+TEXT:
+-->if we want to store the data in larger texts more than 250 then we go for text data type.
+-->upto 65,635 it can store of max 6 bytes
+ex:blog posts,notes etc..,
+ENUM:
+-->this si salso tetx but not used for normal sceanrios.
+-->to store only fixed information
+ex:employee job titles,employee status
+
+Date and time data types:
+Date:
+-->stores date (yyyy-mm-dd) always stores in this format of 8 bytes
+TIME:
+-->Stores time always in (HH:MM:SS) -->8 bytes
+ex:time of shift starts
+
+DATETIME:
+-->we can store dae and time at a particular interval
+structure is 'yyy-mm-dd hh-mm-ss'
+-->stores 5 bytes of data
+
+ex: orders tiem stamps
+
+TIME STAMPS:
+-->captures current date  time 
+-->4 bytes data
+
+YEAR:
+-->Catures only year information in YYYY format
+-->stores 1 byte data
+
+Other Data types:
+BLOB
+-->stores all Object oreiented information.
+-->stores unstructrured information.
+-->stores as binary data
+types:
+tiny,blob,medium,long blob
+stores1,2,3,4 ytes
+ex:image,tiktok data
+
+JSON:
+Essentially sotring multiple information in JSON.
+little tricky to understand format.
+-->capcity depends on size of information
+ex:brand information for a laptop etc..,
+
+
+ 
+
+
